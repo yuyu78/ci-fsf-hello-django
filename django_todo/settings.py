@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os 
+import os
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-z=92-_0r(s*uk+xlh(0zjg=tk4dz$)o6!7zkdi95r92)!gw^we
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['yuki78-django-todo-app.herokuapp.com/']
+ALLOWED_HOSTS = ['yuki78-django-todo-app.herokuapp.com', 'localhost']
 
 
 # Application definition
